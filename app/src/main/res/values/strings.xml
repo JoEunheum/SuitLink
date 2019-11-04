@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Suit_Link</string>
+    <string name="id">Email</string>
+    <string name="id_ko">이메일</string>
+    <string name="id_found">이메일 찾기</string>
+    <string name="login_button">로그인</string>
+    <string name="input_id">이메일을 입력하세요.</string>
+    <string name="password">Password</string>
+    <string name="password_found">비밀번호 찾기</string>
+    <string name="auto_login">자동 로그인</string>
+    <string name="input_password">비밀번호를 입력하세요.</string>
+    <string name="sign_password">ex) abcd1234!@#$ (8~20자)</string>
+    <string name="project_name">정장렌탈</string>
+    <string name="name">이름</string>
+    <string name="double_check">중복확인</string>
+    <string name="input_name">이름을 입력하세요.</string>
+    <string name="password_check">Password Check</string>
+    <string name="input_password_check">다시 입력 하세요.</string>
+    <string name="birth">생년월일</string>
+    <string name="input_birth">ex) 990101</string>
+    <string name="cancel">취소</string>
+    <string name="ok">가입</string>
+    <string name="man">남성</string>
+    <string name="girl">여성</string>
+    <string name="sign_up">회원가입</string>
+    <string name="phone">휴대폰 번호</string>
+    <string name="input_phone">ex) 01011112222</string>
+    <string name="found">찾기</string>
+    <string name="sign_up_come">계정이 없으신가요? 가입하기.</string>
+    <string name="stature">당신의 키는...?</string>
+    <string name="pents">당신의 하의 사이즈는...?</string>
+    <string name="size">당신의 신발 사이즈는...?</string>
+    <string name="chest">당신의 상의 사이즈는...?</string>
+    <string name="nomal">보통</string>
+    <string name="skinny">마름</string>
+    <string name="fat">통통</string>
+    <string name="next">다음</string>
+    <string name="finish">완료</string>
+    <string name="lender">대여자</string>
+    <string name="donator">기증자</string>
+    <string name="lod_name">Suit Link</string>
+    <string name="ssuit_guide">어플안내</string>
+    <string name="reservation">정장예약</string>
+    <string name="reservation_1">예약</string>
+    <string name="rental_period_time">2019-05-24(금)</string>
+    <string name="rental_period">대여</string>
+    <string name="return_to">반납</string>
+    <string name="return_time">2019-05-28(화)</string>
+    <string name="time_set">기간 변경</string>
+    <string name="color">컬러 </string>
+    <string name="size_c">사이즈 </string>
+    <string name="status">키 </string>
+    <string name="price">가격 </string>
+    <string name="previous">이전 </string>
+    <string name="suit_status">정장상태 </string>
+    <string name="suit_data">정장정보 </string>
+    <string name="exit">닫기 </string>
+    <string name="Pents" translatable="false">하의</string>
+    <string name="Size">사이즈</string>
+    <string name="Shoes">구두</string>
+    <string name="Jacket" translatable="false">자켓</string>
+    <string name="Color" translatable="false">색상</string>
+    <string name="Division" translatable="false">구분</string>
+    <string name="Price" translatable="false">가격</string>
+    <string name="Chest" translatable="false">상의</string>
+    <string name="Etc" translatable="false">기타</string>
+    <string name="tie">타이</string>
+    <string name="belt">벨트</string>
+    <string name="Address" translatable="false">주소</string>
+    <string name="PhoneNuber" translatable="false">연락처</string>
+    <string name="Rental_Time" translatable="false">대여기간</string>
+    <string name="RentalHow" translatable="false">대여방법</string>
+    <string name="comeRental">방문대여</string>
+    <string name="deliveryRental">택배대여</string>
+    <string name="UpLoad">올리기</string>
+    <string name="certification">인증</string>
+    <string name="certification_number">가입 시 입력하신 휴대폰 번호와 동일하게 입력하셔야 인증번호를 받을 수 있습니다.</string>
+    <string name="find">확인</string>
+    <string name="logout">로그아웃</string>
+    <string name="openintro">응원이 담긴 정장을 공유하여 청년들의 취업비용 부담을 줄임으로써\n당당하고 멋진 시작을 응원하는 비영리단체입니다.</string>
+    <string name="openhave">누구나 멋질 권리가 있다</string>
+    <string name="jjinhave">가장 빛나는 주인공이 되다</string>
+    <string name="jjinintro">고객 신체에 최적화 되어 수선된 상태에서 이루어지는 렌탈 서비스로\n단순 대여가 아닌 맞춤식 대여 서비스를 제공합니다.</string>
+    <string name="winghave">청년 취업에 날개를 달다</string>
+    <string name="wingintro">서울시가 취업을 준비하고 있는 청년들에게 면접용 정장을\n무료로 빌려 드립니다.</string>
+</resources>

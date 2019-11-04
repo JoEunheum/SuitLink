@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suitlink">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDC1dlvUn4SlXfEbA-SW7zWd2LdqehwxCQ" />
+
+        <activity android:name=".TipActivity"></activity>
+        <activity android:name=".MainTip"/>
+        <activity android:name=".SelfCheck" />
+        <activity android:name=".Self_Suit_Status" />
+        <activity android:name=".RentCheck" />
+        <activity android:name=".Rent_Suit_Status" />
+        <activity
+            android:name=".Wing_FemaleData"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Wing_MaleData"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".WingRental" />
+        <activity android:name=".JjinRental" />
+        <activity android:name=".Male_or_Female" />
+
+        <activity
+            android:name=".Loading"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Open_FemaleData"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Open_MaleData"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".OpenMaleSuit" />
+        <activity android:name=".OpenFeMaleSuit" />
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".Personal_Suit_Status" />
+        <activity android:name=".Personal_Add" />
+        <activity android:name=".Personal_Lental" />
+        <activity android:name=".Personal_Edit" />
+        <activity android:name=".SuitDate" />
+        <activity android:name=".SuitStatus" />
+        <activity android:name=".OpenRental" />
+        <activity android:name=".MyPage" />
+        <activity android:name=".MyPage_Setting" />
+        <activity android:name=".MainChoice" />
+        <activity
+            android:name=".Guide"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".PasswdFound" />
+        <activity android:name=".IdFound" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
