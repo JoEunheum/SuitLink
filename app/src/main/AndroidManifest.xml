@@ -75,7 +75,6 @@
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".SignUp" />
         <activity android:name=".PasswdFound" />
-        <activity android:name=".IdFound" />
         <activity android:name=".MainActivity" />
     </application>
 

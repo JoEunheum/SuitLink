@@ -63,7 +63,8 @@
         android:layout_height="0dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline27"
         app:layout_constraintEnd_toStartOf="@+id/guideline24"
         app:layout_constraintStart_toStartOf="@+id/guideline25"
@@ -172,6 +173,7 @@
                 android:id="@+id/textName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/name"
@@ -263,14 +265,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
-                android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:layout_weight="1"
-                android:clickable="true"
                 android:background="#050505"
-                android:textColor="#ffffff"
+                android:clickable="true"
                 android:text="@string/ok"
+                android:textColor="#ffffff"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -282,7 +283,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                app:layout_constraintGuide_begin="491dp" />
+                app:layout_constraintGuide_begin="500dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

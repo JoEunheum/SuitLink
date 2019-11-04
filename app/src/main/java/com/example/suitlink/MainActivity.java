@@ -32,7 +32,7 @@ public class MainActivity extends BaseActivity {
     private BackPressCloseHandler backPressCloseHandler;
     private EditText input_id,input_password;
     private String login_id, login_password;
-    private Button login, idfound, passfound;
+    private Button login, passfound;
     private TextView signup;
     private FirebaseAuth firebaseAuth;
     private FirebaseUser currentUser;
@@ -54,7 +54,6 @@ public class MainActivity extends BaseActivity {
         input_id = findViewById(R.id.input_id);
         input_password = findViewById(R.id.input_password);
         login = findViewById(R.id.button_login);
-        idfound = findViewById(R.id.id_found);
         passfound = findViewById(R.id.password_found);
         signup = findViewById(R.id.sign_up_come);
 
@@ -226,15 +225,6 @@ public class MainActivity extends BaseActivity {
                     loginStart(login_id, login_password);
                 }
             });
-
-        //아이디 찾기
-        idfound.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), IdFound.class);
-                startActivity(intent);
-            }
-        });
 
         //비밀번호 찾기
         passfound.setOnClickListener(new View.OnClickListener() {

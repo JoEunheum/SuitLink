@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Suit_Link</string>
+    <string name="app_name">SuitLink</string>
     <string name="id">Email</string>
     <string name="id_ko">이메일</string>
     <string name="id_found">이메일 찾기</string>
